@@ -21,6 +21,7 @@ export const PersonalInfo = () => {
                     />
                     
              </div>     
+             <br />
              <div className='flex flex-col items-center  '>
                         <BoxSimple
                        title="Estudios"

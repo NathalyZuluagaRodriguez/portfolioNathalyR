@@ -3,24 +3,24 @@ import { FeatureSection } from '../../Features/FeatureSection';
 
 export const Main = () => {
   return (
-    <main className="mt-16 px-4">
-      {/* Sección de presentación */}
-      <section className="flex items-center justify-center">
-        <div className="max-w-7xl grid grid-cols-1 md:grid-cols-2 gap-12 items-center bg-gradient-to-r from-purple-400 via-purple-300 to-purple-200 rounded-xl shadow-2xl p-8 sm:p-14 transition-all duration-300">
+    <main className="flex flex-col min-h-screen mt-16 px-4 sm:px-6">
+      {/* Contenedor principal */}
+      <section className="flex justify-center m-20">
+        <div className="w-full max-w-5xl grid grid-cols-1 md:grid-cols-2 gap-12 items-center bg-gradient-to-r from-purple-400 via-purple-300 to-purple-200 rounded-xl shadow-2xl p-6 sm:p-12 transition-all duration-300 mx-auto">
           
           {/* Texto */}
-          <div className="flex flex-col items-center md:items-start justify-center text-center md:text-left h-full">
-            <h1 className="text-4xl sm:text-5xl font-extrabold text-gray-900">
+          <div className="flex flex-col items-center md:items-start text-center md:text-left h-full px-6 sm:px-8 md:px-12 py-6 sm:py-10 space-y-4 sm:space-y-6">
+            <h1 className="text-3xl sm:text-4xl font-bold text-white tracking-wide">
               ¡Hola! Soy <span className="text-purple-700">Nathaly</span>
             </h1>
 
-            <p className="text-gray-800 text-lg sm:text-xl mt-6 sm:mt-8 w-full max-w-md leading-relaxed">
-              Soy una <strong>desarrolladora junior</strong> apasionada por la tecnología y el desarrollo de software. Siempre estoy en constante aprendizaje, mejorando mis habilidades para crear soluciones eficientes y funcionales. 
+            <p className="text-gray-800 text-lg sm:text-xl max-w-md leading-relaxed">
+              Soy una <strong>desarrolladora junior</strong> apasionada por la tecnología y el desarrollo de software. 
+              Siempre estoy en constante aprendizaje, mejorando mis habilidades para crear soluciones eficientes y funcionales. 
               Me encanta trabajar en equipo y enfrentar nuevos desafíos para seguir creciendo profesionalmente. 
             </p>
-
-          
           </div>
+
 
           {/* Imagen */}
           <div className="flex justify-center">
@@ -33,15 +33,16 @@ export const Main = () => {
         </div>
       </section>
 
-      {/* Separación entre secciones */}
-      <div className="mt-20"></div>
+      <div className='h-30'>
 
-      {/* Sección de habilidades técnicas */}
-      <h1 className="flex justify-center text-4xl font-extrabold text-gray-800 mt-6 mb-4 underline decoration-purple-500">
-        Habilidades Sociales
-      </h1>
-      <br />
+      </div>
+      {/* Sección de habilidades */}
+      <h2 className="text-2xl sm:text-3xl font-bold text-center text-purple-700 mb-8  ">
+          Habilidades Sociales
+        </h2>
+      
       <FeatureSection />
+      <br />
     </main>
   );
 };
