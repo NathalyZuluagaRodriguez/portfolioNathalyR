@@ -1,7 +1,5 @@
 @import "tailwindcss";
 
-
-
 /* En Header.css */
 body {
     margin-top: 100px; /* Ajusta el valor según la altura de tu Header */
@@ -12,3 +10,4 @@ body {
     margin-top: 100px; /* Ajusta el valor según la altura de tu Header */
   }
   
+

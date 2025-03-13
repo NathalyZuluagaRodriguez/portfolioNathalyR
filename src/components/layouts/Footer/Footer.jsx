@@ -7,8 +7,8 @@ import { FaLinkedinIn } from "react-icons/fa6";
 export const Footer = () => {
   return (
     <footer className='mt-auto'>
-        <nav className="md:flex gap-x-8 text-lg flex justify-around font-semibold bg-purple-400 list-none">
-          <p>Elaborado por Nathaly Rodriguez Zuluaga</p>
+        <nav className="md:flex gap-x-8 text-lg flex justify-around items-center font-semibold bg-purple-400 list-none h-20">
+          <p className='text-gray-700'>Elaborado por Nathaly Rodriguez Zuluaga</p>
         <div className="flex justify-end ">
               <ItemNavbar
                 contents={
